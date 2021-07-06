@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    color: #222;
+    /*기본텍스트 색상*/
+
+   /* font-family: 'Nanum Gothic', sans-serif;*/
+
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    /*배경색*/
+}
+
+a:link {
+    /*클론을 적은것을 슈도 클래스 선택자 라고함*/
+    color: #888;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: #444;
+}
+
+a:active {
+    color: #444;
+}
+
+img {
+    vertical-align: middle;
+    /*이미지 오른쪽에 있는 텍스트들을 어디에 위치할 것인지 (가운데) 정렬하게 함*/
+    /* outline: 포커스가 되어있다는걸 알리기 위해 필요함*/
+}
+
+ul {
+    list-style: none;
+    /*불릿기호 표시안함*/
+}
+
+.flex-Container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+/*header#header {
+    border: 1px solid #000;
+}*/
+
+main#main {
+    border: 1px solid #000;
+}
+
+div#slide {
+    border: 1px solid #000;
+}
+
+div#contnents {
+    border: 1px solid #000;
+}
+
+footer#footer {
+    border: 1px solid #000;
+}
